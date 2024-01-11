@@ -1,0 +1,167 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.Scanner;
+/**
+ *
+ * @author Sri Lanka
+ */
+public class Test1 {
+    public static void main(String args[]){
+        
+        Scanner sc = new Scanner(System.in);
+    
+        System.out.println("  ______                            _      _____             _      _                                  ");
+        System.out.println(" / _____|                          | |    |  ___|           | |    (_)                                 ");
+        System.out.println("| (_____    _ __ __     __ _  _ __ | |_   | |__   __ _  ___ | |__   _   ___   _ __                     ");
+        System.out.println(" \\_____ \\  | '_ ' _ \\  / _' || '__||  _|  |  __| / _' |/ __|| '_ \\ | | / _ \\ | '_ \\              ");
+        System.out.println(" ______) | | | | | | || (_| || |   | |_   | |   | (_| |\\__ \\| | | || || (_) || | | |                 ");
+        System.out.println("|_______/  |_| |_| |_| \\__,_||_|    \\__|  |_|    \\__,_||___/|_| |_||_| \\___/ |_| |_|               ");
+    
+        System.out.println("  ");
+        System.out.print("Date : ");
+        String date = sc.nextLine();
+        
+        System.out.println("  ");
+        System.out.print("Customer Name : ");
+        String name = sc.nextLine();
+        
+        System.out.println("_______________________________________________________________________________________");
+        
+       
+        System.out.println("  ");
+        System.out.print("Number of T-Shirts : ");
+        int n1 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Unit Price of T-Shirt : ");
+        int n2 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Discount Rate (%) : ");
+        double n3 = sc.nextInt();
+        
+        double Discount1 = (n1*n2)-((n1*n2*n3)/100);
+        sc.nextLine();
+        
+        
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| Description                |    QTY    |      Unit Price       |        Amount      |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| T-Shirt                    |      "+n1+"    |           "+n2+"         |       "+Discount1+"       |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        
+        System.out.println("  ");
+        
+        System.out.println("_______________________________________________________________________________________");
+        
+        
+        System.out.println("  ");
+        System.out.print("Number of Trousers : ");
+        int n4 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Unit Price of Trouser : ");
+        int n5 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Discount Rate (%) : ");
+        double n6 = sc.nextInt();
+        
+        double Discount2 = (n4*n5)-((n4*n5*n6)/100);
+        sc.nextLine();
+        
+        
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| Description                |    QTY    |      Unit Price       |        Amount      |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| T-Shirt                    |      "+n4+"    |          "+n5+"         |       "+Discount2+"       |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        
+        System.out.println("  ");
+        System.out.println("_________________________________________________________________________________________");
+    
+        
+        System.out.println("  ");
+        System.out.print("Number of Shirts : ");
+        int n7 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Unit Price of Shirt : ");
+        int n8 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Discount Rate (%) : ");
+        double n9 = sc.nextInt();
+        
+        double Discount3 = (n7*n8)-((n7*n8*n9)/100);
+        sc.nextLine();
+        
+        
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| Description                |    QTY    |      Unit Price       |        Amount      |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| T-Shirt                    |      "+n7+"    |          "+n8+"         |       "+Discount3+"       |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        
+        System.out.println("  ");
+        
+        System.out.println("_______________________________________________________________________________________");
+        
+        
+        System.out.println("  ");
+        System.out.print("Number of Shorts : ");
+        int n10 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Unit Price of Short : ");
+        int n11 = sc.nextInt();
+        
+        System.out.println("  ");
+        System.out.print("Discount Rate (%) : ");
+        double n12 = sc.nextInt();
+        
+        double Discount4 = (n10*n11)-((n10*n11*n12)/100);
+        sc.nextLine();
+        
+        
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| Description                |    QTY    |      Unit Price       |        Amount      |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| T-Shirt                    |      "+n10+"    |           "+n11+"         |       "+Discount4+"       |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        
+        System.out.println("  ");
+        System.out.println("_________________________________________________________________________________________");
+    
+        System.out.println("  ");
+        System.out.print("Customer : " + name + "                                             Date : " + date);
+        System.out.println("   ");
+        
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("| Description                |    QTY    |      Unit Price       |        Amount      |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        System.out.println("|                            |           |                       |                    |");
+        System.out.println("| T-Shirt                    |      "+n1+"    |           "+n2+"         |       "+Discount1+"       |");
+        System.out.println("|                            |           |                       |                    |");
+        System.out.println("| Trouser                    |      "+n4+"    |           "+n5+"        |       "+Discount2+"       |");
+        System.out.println("|                            |           |                       |                    |");
+        System.out.println("| Shirt                      |      "+n7+"    |           "+n8+"        |       "+Discount3+"       |");
+        System.out.println("|                            |           |                       |                    |");
+        System.out.println("| Short                      |      "+n10+"    |           "+n11+"         |       "+Discount4+"       |");
+        System.out.println("|                            |           |                       |                    |");
+        System.out.println("+----------------------------+-----------+-----------------------+--------------------+");
+        
+        double Total = Discount1+Discount2+Discount3+Discount4;
+        
+        System.out.println("| Total                                                          |        "+Total+"      |");
+        System.out.println("+----------------------------------------------------------------+--------------------+");
+    
+        System.out.println("  ");
+        System.out.println("----------------------");
+        System.out.println("(Program exited with code: 0)");
+    
+        
+    }
+}
